@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:16
+    container_name: fifa_postgres
+    environment:
+      POSTGRES_USER: fifa_user
+      POSTGRES_PASSWORD: fifa_pass
+      POSTGRES_DB: fifa_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - fifa_pgdata:/var/lib/postgresql/data
+
+volumes:
+  fifa_pgdata:
