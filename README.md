@@ -30,3 +30,6 @@ Build an end-to-end analytics project (data cleaning → PostgreSQL modeling →
   - `screenshots/` — optional PNG screenshots
 - `docs/` — insights and recommendations
 - `src/` / `notebooks/` — Python logic / Colab notebooks
+
+- ## Download
+- Power BI PBIX + PDF exports are available in the GitHub Releases section.
